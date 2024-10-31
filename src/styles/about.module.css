@@ -1,0 +1,36 @@
+.about {
+    padding: 1rem;
+}
+
+.about h1 {
+    margin: 1.25rem 0;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.about h2 {
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.about h3 {
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.about b {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.about .links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+

@@ -1,0 +1,30 @@
+.notFound {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.notFound h1 {
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 1;
+}
+
+.notFound h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.notFound h3 {
+    color: #1d4ed8;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

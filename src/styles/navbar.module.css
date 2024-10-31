@@ -1,0 +1,122 @@
+.button {
+    padding: 0.25rem 0.5rem;
+    margin: 1.25rem 0;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.25rem;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.05;
+    }
+}
+
+
+
+
+.navbar {
+    color: #ffffff;
+    background-color: #1e293b;
+}
+
+.myContainer {
+    height: 3.5rem;
+    padding: 1.25rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myContainer .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.myContainer .mobileIcons {
+    z-index: 20;
+    cursor: pointer;
+    display: none;
+}
+
+.desktopNav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.desktopNav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.desktopNav ul li:hover {
+    text-decoration: underline;
+}
+
+.desktopNav .github {
+    margin-left: 1.5rem;
+}
+
+.desktopNav .github button {
+    background-color: #15803d;
+}
+
+
+.mobileNav {
+    height: 100vh;
+    width: 50%;
+    max-width: 100%;
+    min-width: 24rem;
+    padding: 4rem 2rem;
+    color: #ffffff;
+    background-color: #1e293b;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.mobileNav ul {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.mobileNav ul li:hover {
+    text-decoration: underline;
+}
+
+.mobileNav button.github {
+    background-color: #15803d;
+}
+
+.mobileNav button.linkedin {
+    background-color: #1e40af;
+}
+
+
+@media (max-width: 768px) {
+    .myContainer .mobileIcons {
+        display: block;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+
+    .mobileNav {
+        display: flex;
+    }
+}
